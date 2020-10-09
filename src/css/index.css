@@ -1,0 +1,92 @@
+:root {
+	--processing-color: #F1CCB1;
+	--structure-color: #B1D095;
+	--properties-color: #B8C7E4;
+	--performance-color: #B8A0E9;
+}
+/*Note: these colors are reset in starter.js under the assumption that eventually this all can be read in from a file*/
+
+
+html,body {
+	font: 12px sans-serif;
+	font-family: sans-serif;
+	padding:0;
+	margin:0;
+	background-color : var(--background-color);
+	overflow: auto;
+	color: var(--foreground-color);
+	/*height:100%;*/
+}
+
+.title{
+	font-size:3vw;
+	padding:2px;
+	text-align:center;
+	margin-bottom:4vh;
+	margin-top:1vh;
+}
+
+
+.columnLeft{
+	position: relative;
+	float: left;
+	width:50%;
+}
+
+.columnRight{
+	position: relative;
+	float: left;
+	width:50%;
+}
+.iForm{
+	box-sizing: border-box;
+	margin:1vw;
+}
+
+
+#container{
+	display: inline-block;
+	height:auto;
+	position:relative;
+}
+.column{
+	box-sizing: border-box;
+	width: 25%;
+	padding: 1vw;
+	position: relative;
+	float: left;
+	/*z-index:10;*/
+}
+
+.columnTitle{
+	font-size: 0.8vw;
+	padding: 2px;
+	text-decoration: underline;
+	text-align: center;
+	margin-bottom:1vh;
+}
+
+
+
+.box{
+	box-sizing: border-box;
+	min-height:2vh;
+	border:1px solid black;
+	margin:1vw;
+	padding:0.5vw;
+}
+
+.wrapperBox{
+	border:1px solid black;
+	background-color: #D7DCE4;
+}
+.boxTitle{
+	font-size:0.7vw;
+	text-align:center;
+	font-weight:bold;
+}
+
+.boxSubtitle{
+	font-size:0.6vw;
+	text-align:center;
+}
