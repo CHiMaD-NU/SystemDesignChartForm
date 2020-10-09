@@ -55,7 +55,6 @@ html,body {
 	padding: 1vw;
 	position: relative;
 	float: left;
-	/*z-index:10;*/
 }
 
 .columnTitle{
@@ -65,8 +64,6 @@ html,body {
 	text-align: center;
 	margin-bottom:1vh;
 }
-
-
 
 .box{
 	box-sizing: border-box;
